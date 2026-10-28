@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miku AI 画廊 (雨蒙专属版)</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f1115; color: #e6edf3; padding: 15px; }
+        h1 { text-align: center; font-size: 1.3rem; margin-bottom: 15px; color: #39c5bb; letter-spacing: 1px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s; }
+        .card:active { transform: scale(0.98); }
+        .card img { width: 100%; height: 220px; object-fit: cover; cursor: pointer; background: #010409; }
+        .info { padding: 10px; font-size: 0.75rem; color: #8b949e; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+        .seed-box { color: #39c5bb; font-weight: bold; margin-bottom: 4px; word-break: break-all; }
+        .file-name { font-size: 0.68rem; color: #6e7681; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 8px; }
+        .btn-dl { display: block; text-align: center; background: #238636; color: #fff; text-decoration: none; padding: 6px; border-radius: 6px; font-weight: 500; font-size: 0.75rem; }
+        /* 模态大图弹窗 */
+        #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.92); z-index: 99; flex-direction: column; justify-content: center; align-items: center; padding: 15px; }
+        #modal img { max-width: 95%; max-height: 80%; border-radius: 6px; box-shadow: 0 0 20px rgba(0,0,0,0.8); }
+        #modal-info { margin-top: 12px; font-size: 0.85rem; max-width: 90%; color: #39c5bb; text-align: center; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>✦ Miku AI 动态画廊 ✦</h1>
+    <div class="gallery" id="gallery"><p style="grid-column: 1/-1; text-align: center; color: #8b949e;">正在连接仓库加载初音图片...</p></div>
+
+    <div id="modal" onclick="this.style.display='none'">
+        <img id="modal-img" src="" alt="大图预览">
+        <div id="modal-info"></div>
+    </div>
+
+    <script>
+        // 核心配置：自动对准你的仓库
+        const GITHUB_USERNAME = "yumenggeng";
+        const GITHUB_REPO = "miku-gallery";
+        const API_URL = `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/`;
+
+        // 前端从 PNG 二进制数据中解密 ComfyUI 的 Seed (备用高精度解析)
+        async function extractComfyMetadata(blob) {
+            const buffer = await blob.arrayBuffer();
+            const view = new DataView(buffer);
+            let offset = 8;
+            let result = { seed: null };
+
+            while (offset < view.byteLength) {
+                const length = view.getUint32(offset);
+                const type = String.fromCharCode(
+                    view.getUint8(offset + 4), view.getUint8(offset + 5),
+                    view.getUint8(offset + 6), view.getUint8(offset + 7)
+                );
+
+                if (type === 'tEXt') {
+                    const dataBytes = new Uint8Array(buffer, offset + 8, length);
+                    const text = new TextDecoder('utf-8').decode(dataBytes);
+                    const [key, ...val] = text.split('\0');
+                    if (key === 'prompt') {
+                        try {
+                            const pJson = JSON.parse(val.join('\0'));
+                            for (let k in pJson) {
+                                if (pJson[k].class_type && pJson[k].class_type.includes('KSampler')) {
+                                    result.seed = pJson[k].inputs.seed;
+                                }
+                            }
+                        } catch(e) {}
+                    }
+                }
+                offset += 12 + length;
+            }
+            return result;
+        }
+
+        async function loadGallery() {
+            const galleryEl = document.getElementById('gallery');
+            try {
+                const resp = await fetch(API_URL);
+                const files = await resp.json();
+                
+                // 筛选出所有 png 图片，按文件名倒序排列（最新的在最前）
+                const pngFiles = files.filter(f => f.name.toLowerCase().endsWith('.png')).reverse();
+                
+                if (pngFiles.length === 0) {
+                    galleryEl.innerHTML = '<p style="grid-column: 1/-1; text-align: center;">仓库里还没有 PNG 图片哦！</p>';
+                    return;
+                }
+
+                galleryEl.innerHTML = '';
+                for (const file of pngFiles) {
+                    const imgUrl = file.download_url;
+                    const fileName = file.name;
+
+                    // 第一重解析：直接从文件名中提取 Seed-后面的数字（毫秒级显示）
+                    const seedMatch = fileName.match(/Seed-(\d+)/);
+                    let initialSeed = seedMatch ? seedMatch[1] : "解析中...";
+
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <img src="${imgUrl}" loading="lazy" alt="Miku">
+                        <div class="info">
+                            <div>
+                                <div class="seed-box" id="seed-${fileName}">Seed: ${initialSeed}</div>
+                                <div class="file-name" title="${fileName}">${fileName}</div>
+                            </div>
+                            <a href="${imgUrl}" download="${fileName}" class="btn-dl" target="_blank" onclick="event.stopPropagation()">下载原图</a>
+                        </div>
+                    `;
+
+                    // 点击看大图
+                    card.onclick = () => {
+                        document.getElementById('modal-img').src = imgUrl;
+                        document.getElementById('modal-info').innerText = document.getElementById(`seed-${fileName}`).innerText;
+                        document.getElementById('modal').style.display = 'flex';
+                    };
+
+                    galleryEl.appendChild(card);
+
+                    // 第二重解析：如果文件名没有种子，自动异步下载图片二进制深挖元数据
+                    if (!seedMatch) {
+                        fetch(imgUrl).then(r => r.blob()).then(extractComfyMetadata).then(meta => {
+                            if (meta.seed) {
+                                document.getElementById(`seed-${fileName}`).innerText = `Seed: ${meta.seed}`;
+                            }
+                        }).catch(() => {});
+                    }
+                }
+            } catch (err) {
+                galleryEl.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: #f85149;">加载失败: ${err.message}</p>`;
+            }
+        }
+
+        loadGallery();
+    </script>
+</body>
+</html>
