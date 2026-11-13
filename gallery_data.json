@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13 14:11:08",
+  "updated_at": "2026-11-13 14:12:06",
   "days_window": 7,
-  "total_count": 412,
-  "total_size_mb": 1435.39,
+  "total_count": 411,
+  "total_size_mb": 1431.61,
   "images": [
     {
       "name": "ComfyUI_2026-11-13_HH-56-26_00001_.png",
@@ -10689,32 +10689,6 @@
       "facedetailer": true,
       "has_workflow": true,
       "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-48_00009_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-48_00008_.png",
-      "mtime": 1793945478,
-      "date": "2026-11-06 14:11:18",
-      "day": "2026-11-06",
-      "size": 3958382,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1101382860256348,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-48_00008_.webp"
     }
   ]
 }

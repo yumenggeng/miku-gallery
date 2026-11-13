@@ -390,16 +390,19 @@ def main():
     if thumb_dir.exists():
         run_git(["add", "-f", THUMB_DIR_NAME], check=False)
 
-    # 检查暂存区是否有变更
+    # 检查暂存区是否有变更，或是否有待推送到远端的提交
     diff_cached = run_git(["diff", "--cached", "--name-only"], check=False)
     if diff_cached.stdout.strip():
         msg = f"Update gallery web UI, metadata & prune >{args.days:g}d old images ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
         log("正在提交画廊网页、缩略图与索引清理...")
         run_git(["commit", "-m", msg], check=False)
+
+    unpushed = run_git(["rev-list", "--count", "origin/main..HEAD"], check=False)
+    if unpushed.returncode == 0 and int(unpushed.stdout.strip() or "0") > 0:
         log("正在推送画廊页面与缩略图至 GitHub...")
         push_res = run_git(["push", "-u", "origin", "main"], check=False, capture=False)
         if push_res.returncode != 0:
-            log("提示: 首次推送返回非零状态，尝试先拉取或继续分批推送...")
+            log("提示: 首次推送返回非零状态，继续分批推送...")
 
     # 7. 分批暂存并推送近 7 天的新增/修改原图
     # 找出哪些近 7 天原图还未与 Git 索引一致
