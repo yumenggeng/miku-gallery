@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>Miku AI 云端画廊 · 近7天精选与原图库</title>
+    <title>Miku AI 云端画廊 · 近7天精选与喜爱收藏库</title>
     <style>
         :root {
             --bg-main: #0b0e14;
@@ -14,6 +14,8 @@
             --accent: #39c5bb;
             --accent-hover: #4be0d5;
             --accent-dim: rgba(57, 197, 187, 0.14);
+            --fav-color: #ff477e;
+            --fav-dim: rgba(255, 71, 126, 0.18);
             --text-main: #e6edf3;
             --text-muted: #8b949e;
             --text-dim: #647182;
@@ -93,8 +95,8 @@
         }
         .search-box {
             position: relative;
-            min-width: 240px;
-            max-width: 380px;
+            min-width: 220px;
+            max-width: 360px;
             flex: 1;
         }
         .search-box input {
@@ -152,7 +154,7 @@
             cursor: pointer;
         }
 
-        /* 日期快速筛选标签栏 */
+        /* 分类与日期快速筛选标签栏 */
         .filter-bar {
             max-width: 1680px;
             margin: 14px auto 0;
@@ -162,17 +164,21 @@
             overflow-x: auto;
             scrollbar-width: thin;
             padding-bottom: 4px;
+            align-items: center;
         }
         .day-chip {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
             color: var(--text-muted);
-            padding: 5px 13px;
+            padding: 6px 14px;
             border-radius: 999px;
-            font-size: 0.8rem;
+            font-size: 0.81rem;
             white-space: nowrap;
             cursor: pointer;
             transition: all 0.18s;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
         }
         .day-chip:hover {
             border-color: var(--accent);
@@ -184,10 +190,25 @@
             color: #0b0e14;
             font-weight: 600;
         }
+        .day-chip.fav-chip {
+            border-color: rgba(255, 71, 126, 0.45);
+            color: #ff7aa2;
+        }
+        .day-chip.fav-chip:hover {
+            border-color: var(--fav-color);
+            background: var(--fav-dim);
+        }
+        .day-chip.fav-chip.active {
+            background: linear-gradient(135deg, #ff477e, #ff2a6d);
+            border-color: var(--fav-color);
+            color: #fff;
+            font-weight: 700;
+            box-shadow: 0 0 14px rgba(255, 71, 126, 0.45);
+        }
         .day-chip .cnt {
-            opacity: 0.8;
+            opacity: 0.85;
             font-size: 0.74rem;
-            margin-left: 4px;
+            margin-left: 2px;
         }
 
         /* 画廊网格区域 */
@@ -211,10 +232,16 @@
             transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
             position: relative;
         }
+        .card.is-liked {
+            border-color: rgba(255, 71, 126, 0.45);
+        }
         .card:hover {
             transform: translateY(-3px);
             border-color: rgba(57, 197, 187, 0.55);
             box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+        }
+        .card.is-liked:hover {
+            border-color: var(--fav-color);
         }
         .thumb-wrap {
             position: relative;
@@ -234,6 +261,40 @@
         .card:hover .thumb-wrap img {
             transform: scale(1.04);
         }
+
+        /* 卡片左上角点赞心形按钮 */
+        .like-btn-card {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            z-index: 5;
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: rgba(11, 14, 20, 0.76);
+            backdrop-filter: blur(6px);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            color: #d0d7de;
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            user-select: none;
+        }
+        .like-btn-card:hover {
+            transform: scale(1.14);
+            border-color: var(--fav-color);
+            color: var(--fav-color);
+        }
+        .like-btn-card.liked {
+            background: rgba(255, 71, 126, 0.22);
+            border-color: var(--fav-color);
+            color: var(--fav-color);
+            box-shadow: 0 0 12px rgba(255, 71, 126, 0.4);
+        }
+
         .badge-res {
             position: absolute;
             top: 8px;
@@ -257,6 +318,17 @@
             padding: 2px 7px;
             border-radius: 6px;
             font-weight: 500;
+        }
+        .badge-fav-tag {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: rgba(255, 71, 126, 0.88);
+            color: #fff;
+            font-size: 0.68rem;
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-weight: 700;
         }
         .card-body {
             padding: 12px;
@@ -345,6 +417,20 @@
         .btn-dl:hover {
             background: var(--success);
             color: #fff;
+        }
+        .btn-like-modal {
+            background: var(--bg-input);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+        }
+        .btn-like-modal:hover {
+            border-color: var(--fav-color);
+            color: var(--fav-color);
+        }
+        .btn-like-modal.liked {
+            background: var(--fav-dim);
+            border-color: var(--fav-color);
+            color: #ff7aa2;
         }
 
         /* 详情与原图查看模态框 */
@@ -440,7 +526,7 @@
             height: 100%;
         }
         .sidebar-header {
-            padding: 16px 18px;
+            padding: 14px 18px;
             border-bottom: 1px solid var(--border-color);
             display: flex;
             align-items: center;
@@ -448,11 +534,12 @@
             gap: 10px;
         }
         .sidebar-header h2 {
-            font-size: 0.96rem;
+            font-size: 0.94rem;
             color: var(--accent);
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+            flex: 1;
         }
         .btn-close {
             background: transparent;
@@ -554,13 +641,13 @@
             padding: 14px 18px;
             border-top: 1px solid var(--border-color);
             display: flex;
-            gap: 10px;
+            gap: 8px;
             background: var(--bg-card);
         }
         .sidebar-footer .btn {
             flex: 1;
-            padding: 10px;
-            font-size: 0.85rem;
+            padding: 10px 8px;
+            font-size: 0.82rem;
         }
 
         /* Toast 提示 */
@@ -595,7 +682,7 @@
                 flex-direction: column;
             }
             .modal-viewer {
-                height: 46vh;
+                height: 44vh;
                 flex: none;
             }
             .modal-sidebar {
@@ -619,7 +706,7 @@
             <div class="brand-logo">M</div>
             <div class="brand-title">
                 <h1>Miku AI <span>云端原图画廊</span></h1>
-                <div class="brand-sub" id="stats-line">正在读取近 7 天生成记录...</div>
+                <div class="brand-sub" id="stats-line">正在读取近 7 天与喜爱收藏记录...</div>
             </div>
         </div>
 
@@ -700,8 +787,9 @@
                 </div>
             </div>
             <div class="sidebar-footer">
-                <a id="m-open-raw" href="#" target="_blank" class="btn btn-info">新窗口看原图</a>
-                <a id="m-download" href="#" download="" class="btn btn-dl">⬇ 下载无损原图</a>
+                <button id="m-like-btn" class="btn btn-like-modal" onclick="toggleCurrentModalLike()">🤍 加入喜爱</button>
+                <a id="m-open-raw" href="#" target="_blank" class="btn btn-info">新窗口原图</a>
+                <a id="m-download" href="#" download="" class="btn btn-dl">⬇ 下载原图</a>
             </div>
         </div>
     </div>
@@ -715,24 +803,42 @@
     const GITHUB_USER = "yumenggeng";
     const GITHUB_REPO = "miku-gallery";
     const GITHUB_BRANCH = "main";
+    const XOR_KEY = "miku_gallery_2026_key";
 
     let allImages = [];
     let filteredImages = [];
-    let activeDay = "ALL";
+    let likedSet = new Set();
+    let unlikedSet = new Set();
+    let activeCategory = "ALL"; // "ALL" | "FAV" | "YYYY-MM-DD"
     let currentModalIdx = -1;
-    let currentWorkflowObj = null;
+    let isSyncingCloud = false;
 
     function showToast(msg) {
         const t = document.getElementById("toast");
         t.textContent = msg;
         t.classList.add("show");
         clearTimeout(window._toastTimer);
-        window._toastTimer = setTimeout(() => t.classList.remove("show"), 2000);
+        window._toastTimer = setTimeout(() => t.classList.remove("show"), 2400);
     }
 
     function formatBytes(bytes) {
         if (!bytes) return "";
         return (bytes / (1024 * 1024)).toFixed(2) + " MB";
+    }
+
+    function decodeSyncToken() {
+        const obf = (window.GALLERY_DATA && window.GALLERY_DATA.sync_token) || localStorage.getItem("miku_gh_token_obf") || "";
+        if (!obf) return "";
+        try {
+            const raw = atob(obf);
+            let out = "";
+            for (let i = 0; i < raw.length; i++) {
+                out += String.fromCharCode(raw.charCodeAt(i) ^ XOR_KEY.charCodeAt(i % XOR_KEY.length));
+            }
+            return out;
+        } catch (e) {
+            return "";
+        }
     }
 
     function getAssetUrl(relPath) {
@@ -745,25 +851,187 @@
         return encoded;
     }
 
-    function buildDayChips() {
+    // 读取并合并本地存储与云端 likes.json
+    async function loadRemoteLikes() {
+        try {
+            const token = decodeSyncToken();
+            const headers = { "Accept": "application/vnd.github.v3+json" };
+            if (token) headers["Authorization"] = `Bearer ${token}`;
+
+            const resp = await fetch(`https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/likes.json?t=${Date.now()}`, { headers });
+            if (resp.ok) {
+                const data = await resp.json();
+                window._likesFileSha = data.sha;
+                const contentStr = new TextDecoder("utf-8").decode(Uint8Array.from(atob(data.content.replace(/\n/g, "")), c => c.charCodeAt(0)));
+                const parsed = JSON.parse(contentStr);
+                if (Array.isArray(parsed.liked)) {
+                    parsed.liked.forEach(n => {
+                        likedSet.add(n);
+                        unlikedSet.delete(n);
+                    });
+                }
+                if (Array.isArray(parsed.unliked)) {
+                    parsed.unliked.forEach(n => {
+                        unlikedSet.add(n);
+                        likedSet.delete(n);
+                    });
+                }
+                syncLikesToItems();
+                buildCategoryChips();
+                applyFilters();
+                if (currentModalIdx !== -1) updateModalLikeButton();
+            }
+        } catch (e) {
+            console.warn("读取云端 likes.json 失败，使用本地状态:", e);
+        }
+    }
+
+    // 将点赞状态实时同步写回 GitHub 云端 likes.json，下次或后台脚本运行即自动将图片移入本地「喜爱」文件夹
+    async function pushLikesToCloud() {
+        const token = decodeSyncToken();
+        if (!token) {
+            showToast("已在当前设备收藏（未检测到云端凭证）");
+            return;
+        }
+        if (isSyncingCloud) return;
+        isSyncingCloud = true;
+        try {
+            const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/likes.json`;
+            const headers = {
+                "Accept": "application/vnd.github.v3+json",
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            };
+
+            // 先获取最新 sha
+            let sha = window._likesFileSha;
+            if (!sha) {
+                const getResp = await fetch(`${apiUrl}?t=${Date.now()}`, { headers });
+                if (getResp.ok) {
+                    const getJson = await getResp.json();
+                    sha = getJson.sha;
+                }
+            }
+
+            const nowStr = new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace("T", " ").slice(0, 19);
+            const payloadObj = {
+                updated_at: nowStr,
+                liked: Array.from(likedSet).sort(),
+                unliked: Array.from(unlikedSet).sort()
+            };
+            const jsonBytes = new TextEncoder().encode(JSON.stringify(payloadObj, null, 2) + "\n");
+            let binStr = "";
+            jsonBytes.forEach(b => binStr += String.fromCharCode(b));
+            const base64Content = btoa(binStr);
+
+            const body = {
+                message: `Update likes.json (${likedSet.size} liked)`,
+                content: base64Content,
+                branch: GITHUB_BRANCH
+            };
+            if (sha) body.sha = sha;
+
+            const putResp = await fetch(apiUrl, {
+                method: "PUT",
+                headers,
+                body: JSON.stringify(body)
+            });
+
+            if (putResp.ok) {
+                const putData = await putResp.json();
+                window._likesFileSha = putData.content.sha;
+            } else {
+                // 如果 SHA 冲突则重新拉取一次再试
+                window._likesFileSha = null;
+            }
+        } catch (e) {
+            console.warn("推送 likes.json 异常:", e);
+        } finally {
+            isSyncingCloud = false;
+        }
+    }
+
+    function syncLikesToItems() {
+        for (const img of allImages) {
+            if (unlikedSet.has(img.name)) {
+                img.liked = false;
+            } else if (likedSet.has(img.name) || img.liked) {
+                img.liked = true;
+                likedSet.add(img.name);
+            }
+        }
+        try {
+            localStorage.setItem("miku_liked_names", JSON.stringify(Array.from(likedSet)));
+            localStorage.setItem("miku_unliked_names", JSON.stringify(Array.from(unlikedSet)));
+        } catch (e) {}
+    }
+
+    function toggleLikeByName(fileName, event) {
+        if (event) event.stopPropagation();
+        const isCurrentlyLiked = likedSet.has(fileName);
+        if (isCurrentlyLiked) {
+            likedSet.delete(fileName);
+            unlikedSet.add(fileName);
+            showToast(`已从「喜爱」移出: ${fileName}`);
+        } else {
+            likedSet.add(fileName);
+            unlikedSet.delete(fileName);
+            showToast(`❤️ 已加入「喜爱」分类！本地将自动移入「喜爱」文件夹`);
+        }
+        syncLikesToItems();
+        buildCategoryChips();
+        applyFilters();
+        if (currentModalIdx !== -1) updateModalLikeButton();
+        pushLikesToCloud();
+    }
+
+    function toggleCurrentModalLike() {
+        if (currentModalIdx === -1 || !filteredImages[currentModalIdx]) return;
+        toggleLikeByName(filteredImages[currentModalIdx].name);
+    }
+
+    function updateModalLikeButton() {
+        const btn = document.getElementById("m-like-btn");
+        if (!btn || currentModalIdx === -1 || !filteredImages[currentModalIdx]) return;
+        const item = filteredImages[currentModalIdx];
+        if (item.liked) {
+            btn.className = "btn btn-like-modal liked";
+            btn.innerHTML = "❤️ 已在喜爱 (点击移出)";
+        } else {
+            btn.className = "btn btn-like-modal";
+            btn.innerHTML = "🤍 加入喜爱";
+        }
+    }
+
+    function buildCategoryChips() {
         const bar = document.getElementById("day-filter-bar");
         const counts = {};
+        let favCount = 0;
         for (const img of allImages) {
+            if (img.liked) favCount++;
             const d = img.day || "未知日期";
             counts[d] = (counts[d] || 0) + 1;
         }
         const days = Object.keys(counts).sort().reverse();
-        let html = `<button class="day-chip ${activeDay === 'ALL' ? 'active' : ''}" onclick="selectDay('ALL')">全部近7天<span class="cnt">(${allImages.length})</span></button>`;
+
+        let html = `
+            <button class="day-chip ${activeCategory === 'ALL' ? 'active' : ''}" onclick="selectCategory('ALL')">
+                全部图片<span class="cnt">(${allImages.length})</span>
+            </button>
+            <button class="day-chip fav-chip ${activeCategory === 'FAV' ? 'active' : ''}" onclick="selectCategory('FAV')">
+                ❤️ 喜爱<span class="cnt">(${favCount})</span>
+            </button>
+        `;
         for (const d of days) {
-            const isAct = activeDay === d ? "active" : "";
-            html += `<button class="day-chip ${isAct}" onclick="selectDay('${d}')">${d}<span class="cnt">(${counts[d]})</span></button>`;
+            const isAct = activeCategory === d ? "active" : "";
+            html += `<button class="day-chip ${isAct}" onclick="selectCategory('${d}')">${d}<span class="cnt">(${counts[d]})</span></button>`;
         }
         bar.innerHTML = html;
     }
 
-    function selectDay(day) {
-        activeDay = day;
-        buildDayChips();
+    function selectCategory(cat) {
+        activeCategory = cat;
+        buildCategoryChips();
         applyFilters();
     }
 
@@ -772,7 +1040,8 @@
         const sortMode = document.getElementById("sort-select").value;
 
         filteredImages = allImages.filter(item => {
-            if (activeDay !== "ALL" && item.day !== activeDay) return false;
+            if (activeCategory === "FAV" && !item.liked) return false;
+            if (activeCategory !== "ALL" && activeCategory !== "FAV" && item.day !== activeCategory) return false;
             if (!q) return true;
             const hay = [
                 item.name,
@@ -797,27 +1066,47 @@
         renderGallery();
     }
 
+    // 若图片刚在本地被移入或移出 `喜爱/` 文件夹，提供自动回退路径
+    function handleImgError(imgEl, primaryUrl, altUrl) {
+        if (!imgEl.dataset.retried && altUrl && primaryUrl !== altUrl) {
+            imgEl.dataset.retried = "1";
+            imgEl.src = altUrl;
+        }
+    }
+
     function renderGallery() {
         const grid = document.getElementById("gallery-grid");
         if (filteredImages.length === 0) {
-            grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--text-muted);">没有找到匹配的图片</div>`;
+            const emptyMsg = activeCategory === "FAV"
+                ? "「❤️ 喜爱」分类中还没有图片哦！点击任意图片左上角的 🤍 即可点赞收入「喜爱」分类并自动移入电脑的「喜爱」文件夹。"
+                : "没有找到匹配的图片";
+            grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--text-muted);">${emptyMsg}</div>`;
             return;
         }
 
         const html = filteredImages.map((item, idx) => {
-            const thumbUrl = getAssetUrl(item.thumb || item.name);
-            const rawUrl = getAssetUrl(item.name);
+            const relRaw = item.path || item.name;
+            const altRaw = relRaw.startsWith("喜爱/") ? item.name : `喜爱/${item.name}`;
+            const thumbUrl = getAssetUrl(item.thumb || relRaw);
+            const rawUrl = getAssetUrl(relRaw);
+            const altRawUrl = getAssetUrl(altRaw);
+
             const resText = (item.width && item.height) ? `${item.width}×${item.height}` : formatBytes(item.size);
             const seedText = item.seed != null ? item.seed : "点击查看";
             const posShort = item.positive || item.positive_template || "（点击查看内置参数信息）";
             const timeShort = (item.date || "").slice(5, 16);
+            const isLiked = !!item.liked;
 
             return `
-            <div class="card">
+            <div class="card ${isLiked ? 'is-liked' : ''}">
                 <div class="thumb-wrap" onclick="openModal(${idx})">
-                    <img src="${thumbUrl}" loading="lazy" alt="${item.name}" onerror="this.onerror=null;this.src='${rawUrl}';">
+                    <button class="like-btn-card ${isLiked ? 'liked' : ''}" onclick="toggleLikeByName('${escapeJs(item.name)}', event)" title="${isLiked ? '取消喜爱' : '点赞加入喜爱'}">
+                        ${isLiked ? '❤️' : '🤍'}
+                    </button>
+                    <img src="${thumbUrl}" loading="lazy" alt="${escapeHtml(item.name)}" onerror="handleImgError(this, '${thumbUrl}', '${rawUrl}')">
                     <span class="badge-res">${resText}</span>
                     ${timeShort ? `<span class="badge-date">${timeShort}</span>` : ""}
+                    ${isLiked ? `<span class="badge-fav-tag">喜爱</span>` : ""}
                 </div>
                 <div class="card-body">
                     <div class="meta-top">
@@ -847,6 +1136,10 @@
             .replace(/"/g, "&quot;");
     }
 
+    function escapeJs(str) {
+        return String(str || "").replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+    }
+
     function copyRawText(val) {
         if (!val) return;
         navigator.clipboard.writeText(String(val)).then(() => showToast(`已复制: ${val}`));
@@ -862,14 +1155,16 @@
         if (idx < 0 || idx >= filteredImages.length) return;
         currentModalIdx = idx;
         const item = filteredImages[idx];
-        const rawUrl = getAssetUrl(item.name);
-        const thumbUrl = getAssetUrl(item.thumb || item.name);
+        const relRaw = item.path || item.name;
+        const altRaw = relRaw.startsWith("喜爱/") ? item.name : `喜爱/${item.name}`;
+        const rawUrl = getAssetUrl(relRaw);
+        const altRawUrl = getAssetUrl(altRaw);
+        const thumbUrl = getAssetUrl(item.thumb || relRaw);
 
         const modalEl = document.getElementById("modal");
         const imgEl = document.getElementById("modal-img");
         const statusEl = document.getElementById("viewer-status");
 
-        // 先展示缩略图占位，无缝过渡到无损原图
         imgEl.src = thumbUrl;
         statusEl.style.display = "block";
         statusEl.textContent = `正在加载原图 (${formatBytes(item.size)})... [${idx + 1}/${filteredImages.length}]`;
@@ -877,8 +1172,17 @@
         const fullLoader = new Image();
         fullLoader.onload = () => {
             if (currentModalIdx === idx) {
-                imgEl.src = rawUrl;
+                imgEl.src = fullLoader.src;
                 statusEl.textContent = `原图已加载 (${item.width || fullLoader.naturalWidth}×${item.height || fullLoader.naturalHeight}, ${formatBytes(item.size)}) [${idx + 1}/${filteredImages.length}]`;
+            }
+        };
+        fullLoader.onerror = () => {
+            if (fullLoader.src !== altRawUrl) {
+                fullLoader.src = altRawUrl;
+                document.getElementById("m-open-raw").href = altRawUrl;
+                document.getElementById("m-download").href = altRawUrl;
+            } else if (currentModalIdx === idx) {
+                statusEl.textContent = `当前显示高清预览缩略图 (${item.width || '?'}×${item.height || '?'}) · 原图可待脚本上传完成后下载`;
             }
         };
         fullLoader.src = rawUrl;
@@ -889,14 +1193,16 @@
         dlBtn.href = rawUrl;
         dlBtn.setAttribute("download", item.name);
 
-        // 填充参数网格
+        updateModalLikeButton();
+
         const params = [
+            { label: "所属分类", value: item.liked ? "❤️ 喜爱收藏 (本地 喜爱/ 文件夹)" : "📁 近7天生成 (output 根目录)" },
             { label: "Seed (随机种子)", value: item.seed != null ? item.seed : "无", copy: true },
             { label: "尺寸 & 体积", value: `${item.width || '?'} × ${item.height || '?'} (${formatBytes(item.size)})` },
             { label: "生成时间", value: item.date || "未知" },
             { label: "采样步数 & CFG", value: `${item.steps || '-'} steps / CFG ${item.cfg || '-'}` },
             { label: "采样器 & 调度器", value: `${item.sampler || '-'} (${item.scheduler || '-'})` },
-            { label: "高清放大 / 修脸", value: `${item.upscale || '无'}${item.facedetailer ? ' + FaceDetailer' : ''}` },
+            { label: "高清放大 / 修脸", value: `${item.upscale || '无'}${item.facedetailer ? ' + FaceDetailer' : ''}`, full: true },
             { label: "大模型 (Checkpoint)", value: item.model || "未记录", full: true },
         ];
         if (item.loras && item.loras.length > 0) {
@@ -922,7 +1228,6 @@
 
         document.getElementById("m-neg").textContent = item.negative || "（无负面提示词记录）";
         document.getElementById("m-live-parse").style.display = item.has_workflow ? "flex" : "none";
-        currentWorkflowObj = null;
 
         modalEl.classList.add("open");
         document.body.style.overflow = "hidden";
@@ -944,11 +1249,10 @@
         openModal(nextIdx);
     }
 
-    // 实时从原图 PNG tEXt 块中提取完整 workflow JSON 并下载
     async function downloadWorkflowJson() {
         if (currentModalIdx === -1) return;
         const item = filteredImages[currentModalIdx];
-        const rawUrl = getAssetUrl(item.name);
+        const rawUrl = getAssetUrl(item.path || item.name);
         showToast("正在从原图提取工作流...");
         try {
             const resp = await fetch(rawUrl);
@@ -993,7 +1297,6 @@
         }
     }
 
-    // 键盘快捷键支持
     window.addEventListener("keydown", e => {
         if (currentModalIdx === -1) return;
         if (e.key === "Escape") closeModal();
@@ -1008,31 +1311,27 @@
         if (currentModalIdx !== -1) openModal(currentModalIdx);
     });
 
-    // 初始化加载数据
     async function initGallery() {
         const statsEl = document.getElementById("stats-line");
+        // 恢复浏览器本地缓存的点赞记录
+        try {
+            const savedLiked = JSON.parse(localStorage.getItem("miku_liked_names") || "[]");
+            const savedUnliked = JSON.parse(localStorage.getItem("miku_unliked_names") || "[]");
+            savedLiked.forEach(n => likedSet.add(n));
+            savedUnliked.forEach(n => unlikedSet.add(n));
+        } catch (e) {}
+
         if (window.GALLERY_DATA && Array.isArray(window.GALLERY_DATA.images)) {
             const d = window.GALLERY_DATA;
             allImages = d.images;
-            statsEl.textContent = `收录近 ${d.days_window || 7} 天共 ${d.total_count} 张原图 (${d.total_size_mb} MB) · 更新于 ${d.updated_at}`;
-            buildDayChips();
+            syncLikesToItems();
+            statsEl.textContent = `收录近 ${d.days_window || 7} 天及喜爱收藏共 ${d.total_count} 张原图 (${d.total_size_mb} MB) · 更新于 ${d.updated_at}`;
+            buildCategoryChips();
             applyFilters();
+            // 异步拉取云端最新 likes.json
+            loadRemoteLikes();
         } else {
-            // 兜底：若未生成 gallery_data.js，尝试通过 GitHub API 列目录
-            statsEl.textContent = "未检测到本地索引，正在通过 GitHub API 获取列表...";
-            try {
-                const resp = await fetch(`https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/`);
-                const files = await resp.json();
-                allImages = files
-                    .filter(f => /\.(png|jpe?g|webp)$/i.test(f.name))
-                    .reverse()
-                    .map(f => ({ name: f.name, size: f.size, day: "云端仓库" }));
-                statsEl.textContent = `云端共 ${allImages.length} 张图片`;
-                buildDayChips();
-                applyFilters();
-            } catch (e) {
-                statsEl.textContent = "加载失败，请先运行 sync_gallery.py 生成索引。";
-            }
+            statsEl.textContent = "未检测到索引，请运行 sync_gallery.py 生成索引。";
         }
     }
 

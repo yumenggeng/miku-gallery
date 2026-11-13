@@ -1,9 +1,851 @@
 window.GALLERY_DATA = {
-  "updated_at": "2026-11-13 14:12:06",
+  "updated_at": "2026-11-13 15:42:11",
   "days_window": 7,
-  "total_count": 411,
-  "total_size_mb": 1431.61,
+  "total_count": 399,
+  "liked_count": 0,
+  "total_size_mb": 1386.25,
+  "sync_token": "CgEEKmdVLxReVwEzLwdcREc3AiMyF1EHLRcmJBVfMUdAOgZVVlsRCQ==",
   "images": [
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-54_00003_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-54_00003_.png",
+      "liked": false,
+      "mtime": 1794555511,
+      "date": "2026-11-13 15:38:31",
+      "day": "2026-11-13",
+      "size": 3864817,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 802602804477045,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, japanese clothes, yukata, floral print, wide sleeves, obi, sash, back bow, off-shoulder, collarbone, geta, floral hair ornament,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 237]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-54_00003_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-54_00002_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-54_00002_.png",
+      "liked": false,
+      "mtime": 1794555315,
+      "date": "2026-11-13 15:35:15",
+      "day": "2026-11-13",
+      "size": 4009138,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 986320420762984,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, japanese clothes, taisho period, arrow feather pattern, kimono, dark hakama, hakama skirt, large hair ribbon, lace-up boots,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 236]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-54_00002_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-54_00001_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-54_00001_.png",
+      "liked": false,
+      "mtime": 1794555163,
+      "date": "2026-11-13 15:32:43",
+      "day": "2026-11-13",
+      "size": 3702970,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 888703070066461,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, japanese clothes, miko, white kosode, wide sleeves, red hakama, hakama skirt, obi, waist bow, tabi, zouri,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 235]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-54_00001_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00016_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00016_.png",
+      "liked": false,
+      "mtime": 1794555038,
+      "date": "2026-11-13 15:30:38",
+      "day": "2026-11-13",
+      "size": 3796015,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 314454912678925,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, wa_lolita, japanese clothes, frilled kimono, off-shoulder, detached sleeves, corset, tiered skirt, lace trim, black thighhighs, hair ribbon,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 234]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00016_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00015_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00015_.png",
+      "liked": false,
+      "mtime": 1794554905,
+      "date": "2026-11-13 15:28:25",
+      "day": "2026-11-13",
+      "size": 3468747,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 217162479564071,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, school uniform, serafuku, white sailor shirt, navy sailor collar, red neckerchief, pleated skirt, mini skirt, black knee highs, loafers,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 233]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00015_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00014_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00014_.png",
+      "liked": false,
+      "mtime": 1794554741,
+      "date": "2026-11-13 15:25:41",
+      "day": "2026-11-13",
+      "size": 3707578,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 95274819763401,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, japanese clothes, yukata, floral print, wide sleeves, obi, sash, back bow, off-shoulder, collarbone, geta, floral hair ornament,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 232]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00014_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00013_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00013_.png",
+      "liked": false,
+      "mtime": 1794554637,
+      "date": "2026-11-13 15:23:57",
+      "day": "2026-11-13",
+      "size": 3756884,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 669075913279126,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, japanese clothes, taisho period, arrow feather pattern, kimono, dark hakama, hakama skirt, large hair ribbon, lace-up boots,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 231]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00013_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00012_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00012_.png",
+      "liked": false,
+      "mtime": 1794554528,
+      "date": "2026-11-13 15:22:08",
+      "day": "2026-11-13",
+      "size": 3398916,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 124039072744362,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, japanese clothes, miko, white kosode, wide sleeves, red hakama, hakama skirt, obi, waist bow, tabi, zouri,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 230]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00012_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00011_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00011_.png",
+      "liked": false,
+      "mtime": 1794554417,
+      "date": "2026-11-13 15:20:17",
+      "day": "2026-11-13",
+      "size": 3713215,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 316110033462727,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy attic room, slanted wooden ceiling, warm fairy lights, vintage Persian rug, vinyl records, bookshelves, plush beanbag chair, twilight through skylight, nostalgic atmosphere, wa_lolita, japanese clothes, frilled kimono, off-shoulder, detached sleeves, corset, tiered skirt, lace trim, black thighhighs, hair ribbon,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 229]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00011_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00010_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00010_.png",
+      "liked": false,
+      "mtime": 1794554301,
+      "date": "2026-11-13 15:18:21",
+      "day": "2026-11-13",
+      "size": 3868103,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 1004156739659045,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy attic room, slanted wooden ceiling, warm fairy lights, vintage Persian rug, vinyl records, bookshelves, plush beanbag chair, twilight through skylight, nostalgic atmosphere, school uniform, serafuku, white sailor shirt, navy sailor collar, red neckerchief, pleated skirt, mini skirt, black knee highs, loafers,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 228]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00010_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00009_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00009_.png",
+      "liked": false,
+      "mtime": 1794554192,
+      "date": "2026-11-13 15:16:32",
+      "day": "2026-11-13",
+      "size": 3933219,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 763202128152222,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy attic room, slanted wooden ceiling, warm fairy lights, vintage Persian rug, vinyl records, bookshelves, plush beanbag chair, twilight through skylight, nostalgic atmosphere, japanese clothes, yukata, floral print, wide sleeves, obi, sash, back bow, off-shoulder, collarbone, geta, floral hair ornament,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 227]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00009_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00008_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00008_.png",
+      "liked": false,
+      "mtime": 1794554077,
+      "date": "2026-11-13 15:14:37",
+      "day": "2026-11-13",
+      "size": 3720927,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 31186136397452,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy attic room, slanted wooden ceiling, warm fairy lights, vintage Persian rug, vinyl records, bookshelves, plush beanbag chair, twilight through skylight, nostalgic atmosphere, japanese clothes, taisho period, arrow feather pattern, kimono, dark hakama, hakama skirt, large hair ribbon, lace-up boots,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 226]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00008_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00007_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00007_.png",
+      "liked": false,
+      "mtime": 1794553941,
+      "date": "2026-11-13 15:12:21",
+      "day": "2026-11-13",
+      "size": 3656814,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 1089794149153879,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n cowboy shot, walking ahead, looking back over shoulder, hands behind back, hair fluttering, playful wink, happy smile, heavy blush, indoors, cozy attic room, slanted wooden ceiling, warm fairy lights, vintage Persian rug, vinyl records, bookshelves, plush beanbag chair, twilight through skylight, nostalgic atmosphere, japanese clothes, miko, white kosode, wide sleeves, red hakama, hakama skirt, obi, waist bow, tabi, zouri,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 225]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00007_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00006_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00006_.png",
+      "liked": false,
+      "mtime": 1794553829,
+      "date": "2026-11-13 15:10:29",
+      "day": "2026-11-13",
+      "size": 3833983,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 158673580965329,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, traditional japanese room, tatami mat, shoji sliding doors, low wooden table, warm paper lantern light, private engawa porch, bamboo garden outside, quiet evening atmosphere, wa_lolita, japanese clothes, frilled kimono, off-shoulder, detached sleeves, corset, tiered skirt, lace trim, black thighhighs, hair ribbon,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 224]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00006_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00005_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00005_.png",
+      "liked": false,
+      "mtime": 1794553684,
+      "date": "2026-11-13 15:08:04",
+      "day": "2026-11-13",
+      "size": 3228179,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 1029720408652152,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, traditional japanese room, tatami mat, shoji sliding doors, low wooden table, warm paper lantern light, private engawa porch, bamboo garden outside, quiet evening atmosphere, school uniform, serafuku, white sailor shirt, navy sailor collar, red neckerchief, pleated skirt, mini skirt, black knee highs, loafers,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 223]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00005_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00004_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00004_.png",
+      "liked": false,
+      "mtime": 1794553478,
+      "date": "2026-11-13 15:04:38",
+      "day": "2026-11-13",
+      "size": 3604001,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 902990824490097,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, traditional japanese room, tatami mat, shoji sliding doors, low wooden table, warm paper lantern light, private engawa porch, bamboo garden outside, quiet evening atmosphere, japanese clothes, yukata, floral print, wide sleeves, obi, sash, back bow, off-shoulder, collarbone, geta, floral hair ornament,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 222]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00004_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00003_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00003_.png",
+      "liked": false,
+      "mtime": 1794553310,
+      "date": "2026-11-13 15:01:50",
+      "day": "2026-11-13",
+      "size": 3426345,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 1043786033894364,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, traditional japanese room, tatami mat, shoji sliding doors, low wooden table, warm paper lantern light, private engawa porch, bamboo garden outside, quiet evening atmosphere, japanese clothes, taisho period, arrow feather pattern, kimono, dark hakama, hakama skirt, large hair ribbon, lace-up boots,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 221]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00003_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00002_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00002_.png",
+      "liked": false,
+      "mtime": 1794553105,
+      "date": "2026-11-13 14:58:25",
+      "day": "2026-11-13",
+      "size": 3505324,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 570953182678097,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, traditional japanese room, tatami mat, shoji sliding doors, low wooden table, warm paper lantern light, private engawa porch, bamboo garden outside, quiet evening atmosphere, japanese clothes, miko, white kosode, wide sleeves, red hakama, hakama skirt, obi, waist bow, tabi, zouri,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 220]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00002_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-53_00001_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-53_00001_.png",
+      "liked": false,
+      "mtime": 1794552906,
+      "date": "2026-11-13 14:55:06",
+      "day": "2026-11-13",
+      "size": 3617283,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 1074226393935151,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, modern penthouse apartment, floor-to-ceiling windows, city skyline at night, plush velvet sofa, low glass table, red wine glass, ambient neon reflections, moody dark lighting, wa_lolita, japanese clothes, frilled kimono, off-shoulder, detached sleeves, corset, tiered skirt, lace trim, black thighhighs, hair ribbon,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 219]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-53_00001_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00011_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00011_.png",
+      "liked": false,
+      "mtime": 1794552715,
+      "date": "2026-11-13 14:51:55",
+      "day": "2026-11-13",
+      "size": 3628572,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 274201419999794,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, modern penthouse apartment, floor-to-ceiling windows, city skyline at night, plush velvet sofa, low glass table, red wine glass, ambient neon reflections, moody dark lighting, school uniform, serafuku, white sailor shirt, navy sailor collar, red neckerchief, pleated skirt, mini skirt, black knee highs, loafers,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 218]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00011_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00010_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00010_.png",
+      "liked": false,
+      "mtime": 1794552540,
+      "date": "2026-11-13 14:49:00",
+      "day": "2026-11-13",
+      "size": 3529807,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 622758628565919,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, modern penthouse apartment, floor-to-ceiling windows, city skyline at night, plush velvet sofa, low glass table, red wine glass, ambient neon reflections, moody dark lighting, japanese clothes, yukata, floral print, wide sleeves, obi, sash, back bow, off-shoulder, collarbone, geta, floral hair ornament,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 217]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00010_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00009_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00009_.png",
+      "liked": false,
+      "mtime": 1794552360,
+      "date": "2026-11-13 14:46:00",
+      "day": "2026-11-13",
+      "size": 3889888,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 143398154507526,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, modern penthouse apartment, floor-to-ceiling windows, city skyline at night, plush velvet sofa, low glass table, red wine glass, ambient neon reflections, moody dark lighting, japanese clothes, taisho period, arrow feather pattern, kimono, dark hakama, hakama skirt, large hair ribbon, lace-up boots,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 216]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00009_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00008_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00008_.png",
+      "liked": false,
+      "mtime": 1794552165,
+      "date": "2026-11-13 14:42:45",
+      "day": "2026-11-13",
+      "size": 3328005,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 76201638820415,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, modern penthouse apartment, floor-to-ceiling windows, city skyline at night, plush velvet sofa, low glass table, red wine glass, ambient neon reflections, moody dark lighting, japanese clothes, miko, white kosode, wide sleeves, red hakama, hakama skirt, obi, waist bow, tabi, zouri,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 215]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00008_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00007_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00007_.png",
+      "liked": false,
+      "mtime": 1794551992,
+      "date": "2026-11-13 14:39:52",
+      "day": "2026-11-13",
+      "size": 3744429,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 232774561333398,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, wa_lolita, japanese clothes, frilled kimono, off-shoulder, detached sleeves, corset, tiered skirt, lace trim, black thighhighs, hair ribbon,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 214]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00007_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00006_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00006_.png",
+      "liked": false,
+      "mtime": 1794551841,
+      "date": "2026-11-13 14:37:21",
+      "day": "2026-11-13",
+      "size": 3614375,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 884661854892187,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, school uniform, serafuku, white sailor shirt, navy sailor collar, red neckerchief, pleated skirt, mini skirt, black knee highs, loafers,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 213]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00006_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00005_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00005_.png",
+      "liked": false,
+      "mtime": 1794551667,
+      "date": "2026-11-13 14:34:27",
+      "day": "2026-11-13",
+      "size": 3709108,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 940194548527555,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, japanese clothes, yukata, floral print, wide sleeves, obi, sash, back bow, off-shoulder, collarbone, geta, floral hair ornament,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 212]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00005_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00004_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00004_.png",
+      "liked": false,
+      "mtime": 1794551487,
+      "date": "2026-11-13 14:31:27",
+      "day": "2026-11-13",
+      "size": 3663545,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 1118469847550302,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, japanese clothes, taisho period, arrow feather pattern, kimono, dark hakama, hakama skirt, large hair ribbon, lace-up boots,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 211]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00004_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00003_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00003_.png",
+      "liked": false,
+      "mtime": 1794551299,
+      "date": "2026-11-13 14:28:19",
+      "day": "2026-11-13",
+      "size": 3616424,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 975736830709816,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, luxury bathroom, marble walls, freestanding bathtub, steam, mist, scented candles, warm dim lighting, large mirror, water reflections, intimate atmosphere, japanese clothes, miko, white kosode, wide sleeves, red hakama, hakama skirt, obi, waist bow, tabi, zouri,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 210]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00003_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00002_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00002_.png",
+      "liked": false,
+      "mtime": 1794551143,
+      "date": "2026-11-13 14:25:43",
+      "day": "2026-11-13",
+      "size": 3634276,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 425941531667363,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, wa_lolita, japanese clothes, frilled kimono, off-shoulder, detached sleeves, corset, tiered skirt, lace trim, black thighhighs, hair ribbon,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 209]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00002_.webp"
+    },
+    {
+      "name": "ComfyUI_2026-11-13_HH-18-52_00001_.png",
+      "path": "ComfyUI_2026-11-13_HH-18-52_00001_.png",
+      "liked": false,
+      "mtime": 1794550947,
+      "date": "2026-11-13 14:22:27",
+      "day": "2026-11-13",
+      "size": 3515463,
+      "width": 2048,
+      "height": 1152,
+      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
+      "loras": [
+        "miku_style_v1-000005.safetensors (0.8)"
+      ],
+      "seed": 765416201921196,
+      "steps": 25,
+      "cfg": 5.0,
+      "sampler": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "positive": "1girl, solo, style_artname, hatsune miku, Rella,\n close-up, portrait, one hand touching cheek, adjusting hair, head tilted slightly, half-closed eyes, affectionate expression, parted lips, soft blush, indoors, cozy bedroom, messy bed, white silk sheets, fluffy pillows, morning sunlight streaming through sheer curtains, wooden floor, potted plants on windowsill, warm atmosphere, soft shadows, school uniform, serafuku, white sailor shirt, navy sailor collar, red neckerchief, pleated skirt, mini skirt, black knee highs, loafers,",
+      "positive_template": "1girl, solo, style_artname, hatsune miku, Rella,\n __miku/poses__, __miku/indoors__, __miku/clothing__,\n[Combinatorial Index: 208]",
+      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
+      "upscale": "bislerp 1.5x",
+      "facedetailer": true,
+      "has_workflow": true,
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-18-52_00001_.webp"
+    },
     {
       "name": "ComfyUI_2026-11-13_HH-56-26_00001_.png",
       "mtime": 1794549520,
@@ -28,7 +870,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-13_HH-56-26_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-56-26_00001_.webp",
+      "path": "ComfyUI_2026-11-13_HH-56-26_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-13_HH-53-43_00001_.png",
@@ -54,7 +898,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-13_HH-53-43_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-53-43_00001_.webp",
+      "path": "ComfyUI_2026-11-13_HH-53-43_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-13_HH-50-58_00001_.png",
@@ -80,7 +926,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-13_HH-50-58_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-50-58_00001_.webp",
+      "path": "ComfyUI_2026-11-13_HH-50-58_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-13_HH-06-15_00003_.png",
@@ -106,7 +954,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-13_HH-06-15_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-06-15_00003_.webp",
+      "path": "ComfyUI_2026-11-13_HH-06-15_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-13_HH-06-15_00002_.png",
@@ -132,7 +982,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-13_HH-06-15_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-06-15_00002_.webp",
+      "path": "ComfyUI_2026-11-13_HH-06-15_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-13_HH-06-15_00001_.png",
@@ -158,7 +1010,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-13_HH-06-15_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-13_HH-06-15_00001_.webp",
+      "path": "ComfyUI_2026-11-13_HH-06-15_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00010_.png",
@@ -184,7 +1038,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00010_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00009_.png",
@@ -210,7 +1066,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00008_.png",
@@ -236,7 +1094,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00007_.png",
@@ -262,7 +1122,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00006_.png",
@@ -288,7 +1150,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00005_.png",
@@ -314,7 +1178,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00004_.png",
@@ -340,7 +1206,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00003_.png",
@@ -366,7 +1234,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00002_.png",
@@ -392,7 +1262,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-39-10_00001_.png",
@@ -418,7 +1290,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-39-10_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-39-10_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00010_.png",
@@ -444,7 +1318,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00010_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00009_.png",
@@ -470,7 +1346,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00008_.png",
@@ -496,7 +1374,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00007_.png",
@@ -522,7 +1402,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00006_.png",
@@ -548,7 +1430,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00005_.png",
@@ -574,7 +1458,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00004_.png",
@@ -600,7 +1486,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00003_.png",
@@ -626,7 +1514,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00002_.png",
@@ -652,7 +1542,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-08-40_00001_.png",
@@ -678,7 +1570,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-08-40_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-08-40_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-58_00004_.png",
@@ -704,7 +1598,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-58_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-58_00003_.png",
@@ -730,7 +1626,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-58_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-58_00002_.png",
@@ -756,7 +1654,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-58_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-58_00001_.png",
@@ -782,7 +1682,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-58_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-58_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-57_00006_.png",
@@ -808,7 +1710,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-57_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-57_00005_.png",
@@ -834,7 +1738,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-57_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-57_00004_.png",
@@ -860,7 +1766,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-57_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-57_00003_.png",
@@ -886,7 +1794,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-57_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-57_00002_.png",
@@ -912,7 +1822,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-57_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-25-57_00001_.png",
@@ -938,7 +1850,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-25-57_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-25-57_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00007_.png",
@@ -964,7 +1878,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00006_.png",
@@ -990,7 +1906,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00005_.png",
@@ -1016,7 +1934,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00004_.png",
@@ -1042,7 +1962,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00003_.png",
@@ -1068,7 +1990,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00002_.png",
@@ -1094,7 +2018,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-17_00001_.png",
@@ -1120,7 +2046,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-17_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-17_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-16_00003_.png",
@@ -1146,7 +2074,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-16_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-16_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-16_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-16_00002_.png",
@@ -1172,7 +2102,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-16_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-16_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-16_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-16_00001_.png",
@@ -1198,7 +2130,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-16_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-16_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-16_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00010_.png",
@@ -1224,7 +2158,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00010_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00009_.png",
@@ -1250,7 +2186,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00008_.png",
@@ -1276,7 +2214,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00007_.png",
@@ -1302,7 +2242,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00006_.png",
@@ -1328,7 +2270,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00005_.png",
@@ -1354,7 +2298,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00004_.png",
@@ -1380,7 +2326,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00003_.png",
@@ -1406,7 +2354,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00002_.png",
@@ -1432,7 +2382,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-21-57_00001_.png",
@@ -1458,7 +2410,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-21-57_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-21-57_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00008_.png",
@@ -1484,7 +2438,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00007_.png",
@@ -1510,7 +2466,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00006_.png",
@@ -1536,7 +2494,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00005_.png",
@@ -1562,7 +2522,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00004_.png",
@@ -1588,7 +2550,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00003_.png",
@@ -1614,7 +2578,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00002_.png",
@@ -1640,7 +2606,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-47_00001_.png",
@@ -1666,7 +2634,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-47_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-47_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-46_00002_.png",
@@ -1692,7 +2662,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-46_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-46_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-46_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-52-46_00001_.png",
@@ -1718,7 +2690,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-46_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-52-46_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-52-46_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-43-17_00001_.png",
@@ -1744,7 +2718,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-17_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-17_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-43-17_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-20-34_00003_.png",
@@ -1770,7 +2746,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-34_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-34_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-20-34_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-20-34_00002_.png",
@@ -1796,7 +2774,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-34_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-34_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-20-34_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-20-34_00001_.png",
@@ -1822,7 +2802,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-34_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-34_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-20-34_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-20-33_00002_.png",
@@ -1848,7 +2830,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-33_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-33_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-20-33_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-20-33_00001_.png",
@@ -1874,7 +2858,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-33_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-33_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-20-33_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-07_00002_.png",
@@ -1900,7 +2886,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-07_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-07_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-07_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-07_00001_.png",
@@ -1926,7 +2914,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-07_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-07_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-07_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00008_.png",
@@ -1952,7 +2942,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00007_.png",
@@ -1978,7 +2970,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00006_.png",
@@ -2004,7 +2998,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00005_.png",
@@ -2030,7 +3026,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00004_.png",
@@ -2056,7 +3054,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00003_.png",
@@ -2082,7 +3082,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00002_.png",
@@ -2108,7 +3110,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-50-06_00001_.png",
@@ -2134,7 +3138,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-50-06_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-50-06_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-43-05_00001_.png",
@@ -2160,7 +3166,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-05_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-05_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-43-05_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-43-04_00002_.png",
@@ -2186,7 +3194,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-04_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-04_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-43-04_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-43-04_00001_.png",
@@ -2212,7 +3222,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-04_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-04_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-43-04_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00011_.png",
@@ -2238,7 +3250,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00011_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00010_.png",
@@ -2264,7 +3278,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00010_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00009_.png",
@@ -2290,7 +3306,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00008_.png",
@@ -2316,7 +3334,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00007_.png",
@@ -2342,7 +3362,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00006_.png",
@@ -2368,7 +3390,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00005_.png",
@@ -2394,7 +3418,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00004_.png",
@@ -2420,7 +3446,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00003_.png",
@@ -2446,7 +3474,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00002_.png",
@@ -2472,7 +3502,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-27_00001_.png",
@@ -2498,7 +3530,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-27_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-27_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00017_.png",
@@ -2524,7 +3558,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00017_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00016_.png",
@@ -2550,7 +3586,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00016_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00015_.png",
@@ -2576,7 +3614,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00015_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00014_.png",
@@ -2602,7 +3642,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00014_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00013_.png",
@@ -2628,7 +3670,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00013_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00012_.png",
@@ -2654,7 +3698,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00012_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00011_.png",
@@ -2680,7 +3726,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00011_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00010_.png",
@@ -2706,7 +3754,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00010_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00009_.png",
@@ -2732,7 +3782,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00008_.png",
@@ -2758,7 +3810,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00007_.png",
@@ -2784,7 +3838,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00006_.png",
@@ -2810,7 +3866,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00005_.png",
@@ -2836,7 +3894,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00004_.png",
@@ -2862,7 +3922,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00003_.png",
@@ -2888,7 +3950,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00002_.png",
@@ -2914,7 +3978,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-26_00001_.png",
@@ -2940,7 +4006,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-26_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-26_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-25_00002_.png",
@@ -2966,7 +4034,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-25_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-25_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-25_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-25_00001_.png",
@@ -2992,7 +4062,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-25_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-25_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-25_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-20-41_00001_.png",
@@ -3018,7 +4090,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-41_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-20-41_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-20-41_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-18-04_00001_.png",
@@ -3044,7 +4118,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-18-04_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-18-04_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-18-04_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-13-31_00001_.png",
@@ -3070,7 +4146,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-13-31_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-13-31_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-13-31_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-09-26_00001_.png",
@@ -3096,7 +4174,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-09-26_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-09-26_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-09-26_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-21_00001_.png",
@@ -3122,7 +4202,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-21_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-21_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-21_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00018_.png",
@@ -3148,7 +4230,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00018_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00018_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00018_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00017_.png",
@@ -3174,7 +4258,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00017_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00016_.png",
@@ -3200,7 +4286,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00016_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00015_.png",
@@ -3226,7 +4314,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00015_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00014_.png",
@@ -3252,7 +4342,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00014_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00013_.png",
@@ -3278,7 +4370,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00013_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00012_.png",
@@ -3304,7 +4398,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00012_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00011_.png",
@@ -3330,7 +4426,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00011_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00010_.png",
@@ -3356,7 +4454,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00010_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00009_.png",
@@ -3382,7 +4482,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00008_.png",
@@ -3408,7 +4510,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00007_.png",
@@ -3434,7 +4538,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00007_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00006_.png",
@@ -3460,7 +4566,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00005_.png",
@@ -3486,7 +4594,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00004_.png",
@@ -3512,7 +4622,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00004_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00003_.png",
@@ -3538,7 +4650,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00002_.png",
@@ -3564,7 +4678,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-20_00001_.png",
@@ -3590,7 +4706,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-20_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-20_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00011_.png",
@@ -3616,7 +4734,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00011_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00009_.png",
@@ -3642,7 +4762,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00009_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00008_.png",
@@ -3668,7 +4790,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00008_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00006_.png",
@@ -3694,7 +4818,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00006_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00005_.png",
@@ -3720,7 +4846,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00005_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00003_.png",
@@ -3746,7 +4874,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00003_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00002_.png",
@@ -3772,7 +4902,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00002_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-17-19_00001_.png",
@@ -3798,7 +4930,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-17-19_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-17-19_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-12-51_00001_.png",
@@ -3824,7 +4958,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-12-51_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-12-51_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-12-51_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-46-11_00001_.png",
@@ -3850,7 +4986,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-46-11_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-46-11_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-46-11_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-43-27_00001_.png",
@@ -3876,7 +5014,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-27_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-43-27_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-43-27_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-30-58_00001_.png",
@@ -3902,7 +5042,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-30-58_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-30-58_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-30-58_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-27-18_00001_.png",
@@ -3928,7 +5070,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-27-18_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-27-18_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-27-18_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-24-07_00001_.png",
@@ -3954,7 +5098,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-24-07_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-24-07_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-24-07_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-02-16_00001_.png",
@@ -3980,7 +5126,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-02-16_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-02-16_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-02-16_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-58-18_00001_.png",
@@ -4006,7 +5154,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-58-18_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-58-18_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-58-18_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-54-11_00001_.png",
@@ -4032,7 +5182,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-54-11_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-54-11_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-54-11_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-51-31_00001_.png",
@@ -4058,7 +5210,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-51-31_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-51-31_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-51-31_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-28-36_00001_.png",
@@ -4084,7 +5238,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-28-36_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-28-36_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-28-36_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-23-02_00001_.png",
@@ -4110,7 +5266,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-02_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-23-02_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-23-02_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-12_HH-05-50_00001_.png",
@@ -4136,7 +5294,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-12_HH-05-50_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-12_HH-05-50_00001_.webp",
+      "path": "ComfyUI_2026-11-12_HH-05-50_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-11_HH-57-37_00001_.png",
@@ -4162,7 +5322,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-11_HH-57-37_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-11_HH-57-37_00001_.webp",
+      "path": "ComfyUI_2026-11-11_HH-57-37_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-11_HH-54-11_00001_.png",
@@ -4188,7 +5350,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-11_HH-54-11_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-11_HH-54-11_00001_.webp",
+      "path": "ComfyUI_2026-11-11_HH-54-11_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-11_HH-50-03_00001_.png",
@@ -4214,7 +5378,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-11_HH-50-03_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-11_HH-50-03_00001_.webp",
+      "path": "ComfyUI_2026-11-11_HH-50-03_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-11_HH-46-16_00001_.png",
@@ -4240,7 +5406,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-11_HH-46-16_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-11_HH-46-16_00001_.webp",
+      "path": "ComfyUI_2026-11-11_HH-46-16_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-11_HH-43-22_00001_.png",
@@ -4266,7 +5434,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-11_HH-43-22_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-11_HH-43-22_00001_.webp",
+      "path": "ComfyUI_2026-11-11_HH-43-22_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-10_HH-00-00_00001_.png",
@@ -4292,7 +5462,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-10_HH-00-00_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-10_HH-00-00_00001_.webp",
+      "path": "ComfyUI_2026-11-10_HH-00-00_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-55-43_00001_.png",
@@ -4318,7 +5490,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-55-43_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-55-43_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-55-43_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-41-50_00001_.png",
@@ -4344,7 +5518,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-41-50_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-41-50_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-41-50_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-39-03_00001_.png",
@@ -4370,7 +5546,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-39-03_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-39-03_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-39-03_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-14-46_00001_.png",
@@ -4396,7 +5574,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-14-46_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-14-46_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-14-46_00001_.png",
+      "liked": false
     },
     {
       "name": "初音礼服湖边.png",
@@ -4422,7 +5602,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/初音礼服湖边.webp"
+      "thumb": "thumbs/初音礼服湖边.webp",
+      "path": "初音礼服湖边.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-56-19_00001_.png",
@@ -4448,7 +5630,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-56-19_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-56-19_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-56-19_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-53-39_00001_.png",
@@ -4474,7 +5658,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-53-39_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-53-39_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-53-39_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-34-19_00001_.png",
@@ -4500,7 +5686,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-34-19_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-34-19_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-34-19_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-09_HH-30-31_00001_.png",
@@ -4526,7 +5714,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-09_HH-30-31_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-09_HH-30-31_00001_.webp",
+      "path": "ComfyUI_2026-11-09_HH-30-31_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00020_.png",
@@ -4552,7 +5742,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00020_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00020_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00020_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00019_.png",
@@ -4578,7 +5770,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00019_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00019_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00019_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00018_.png",
@@ -4604,7 +5798,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00018_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00018_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00018_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00017_.png",
@@ -4630,7 +5826,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00017_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00016_.png",
@@ -4656,7 +5854,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00016_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00015_.png",
@@ -4682,7 +5882,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00015_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00014_.png",
@@ -4708,7 +5910,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00014_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00013_.png",
@@ -4734,7 +5938,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00013_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00012_.png",
@@ -4760,7 +5966,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00012_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00011_.png",
@@ -4786,7 +5994,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00011_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00010_.png",
@@ -4812,7 +6022,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00010_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00009_.png",
@@ -4838,7 +6050,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00009_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00008_.png",
@@ -4864,7 +6078,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00008_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00007_.png",
@@ -4890,7 +6106,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00007_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00006_.png",
@@ -4916,7 +6134,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00006_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00005_.png",
@@ -4942,7 +6162,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00005_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00004_.png",
@@ -4968,7 +6190,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00004_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00003_.png",
@@ -4994,7 +6218,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00003_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00002_.png",
@@ -5020,7 +6246,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-50_00001_.png",
@@ -5046,7 +6274,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-50_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-50_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00023_.png",
@@ -5072,7 +6302,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00023_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00023_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00023_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00022_.png",
@@ -5098,7 +6330,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00022_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00022_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00022_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00021_.png",
@@ -5124,7 +6358,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00021_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00021_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00021_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00020_.png",
@@ -5150,7 +6386,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00020_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00020_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00020_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00019_.png",
@@ -5176,7 +6414,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00019_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00019_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00019_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00018_.png",
@@ -5202,7 +6442,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00018_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00018_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00018_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00017_.png",
@@ -5228,7 +6470,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00017_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00016_.png",
@@ -5254,7 +6498,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00016_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00015_.png",
@@ -5280,7 +6526,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00015_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00014_.png",
@@ -5306,7 +6554,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00014_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00013_.png",
@@ -5332,7 +6582,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00013_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00012_.png",
@@ -5358,7 +6610,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00012_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00011_.png",
@@ -5384,7 +6638,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00011_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00010_.png",
@@ -5410,7 +6666,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00010_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00009_.png",
@@ -5436,7 +6694,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00009_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00008_.png",
@@ -5462,7 +6722,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00008_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00007_.png",
@@ -5488,7 +6750,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00007_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00006_.png",
@@ -5514,7 +6778,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00006_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00005_.png",
@@ -5540,7 +6806,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00005_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00004_.png",
@@ -5566,7 +6834,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00004_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00003_.png",
@@ -5592,7 +6862,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00003_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00002_.png",
@@ -5618,7 +6890,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-49_00001_.png",
@@ -5644,7 +6918,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-49_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-49_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00007_.png",
@@ -5670,7 +6946,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00007_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00006_.png",
@@ -5696,7 +6974,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00006_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00005_.png",
@@ -5722,7 +7002,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00005_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00004_.png",
@@ -5748,7 +7030,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00004_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00003_.png",
@@ -5774,7 +7058,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00003_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00002_.png",
@@ -5800,7 +7086,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-17-48_00001_.png",
@@ -5826,7 +7114,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-17-48_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-17-48_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-15-01_00001_.png",
@@ -5852,7 +7142,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-15-01_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-15-01_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-15-01_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-11-43_00001_.png",
@@ -5878,7 +7170,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-11-43_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-11-43_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-11-43_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-07-11_00001_.png",
@@ -5904,7 +7198,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-07-11_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-07-11_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-07-11_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-04-28_00001_.png",
@@ -5930,7 +7226,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-04-28_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-04-28_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-04-28_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-00-32_00001_.png",
@@ -5956,7 +7254,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-00-32_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-00-32_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-00-32_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-49-47_00001_.png",
@@ -5982,7 +7282,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-49-47_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-49-47_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-49-47_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00015_.png",
@@ -6008,7 +7310,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00015_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00014_.png",
@@ -6034,7 +7338,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00014_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00013_.png",
@@ -6060,7 +7366,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00013_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00012_.png",
@@ -6086,7 +7394,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00012_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00011_.png",
@@ -6112,7 +7422,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00011_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00010_.png",
@@ -6138,7 +7450,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00010_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00009_.png",
@@ -6164,7 +7478,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00009_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00008_.png",
@@ -6190,7 +7506,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00008_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00007_.png",
@@ -6216,7 +7534,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00007_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00006_.png",
@@ -6242,7 +7562,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00006_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00005_.png",
@@ -6268,7 +7590,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00005_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00004_.png",
@@ -6294,7 +7618,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00004_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00003_.png",
@@ -6320,7 +7646,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00003_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00002_.png",
@@ -6346,7 +7674,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-35_00001_.png",
@@ -6372,7 +7702,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-35_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-35_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00017_.png",
@@ -6398,7 +7730,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00017_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00016_.png",
@@ -6424,7 +7758,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00016_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00015_.png",
@@ -6450,7 +7786,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00015_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00014_.png",
@@ -6476,7 +7814,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00014_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00013_.png",
@@ -6502,7 +7842,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00013_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00012_.png",
@@ -6528,7 +7870,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00012_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00011_.png",
@@ -6554,7 +7898,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00011_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00010_.png",
@@ -6580,7 +7926,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00010_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00009_.png",
@@ -6606,7 +7954,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00009_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00008_.png",
@@ -6632,7 +7982,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00008_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00007_.png",
@@ -6658,7 +8010,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00007_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00006_.png",
@@ -6684,7 +8038,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00006_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00005_.png",
@@ -6710,7 +8066,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00005_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00004_.png",
@@ -6736,7 +8094,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00004_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00003_.png",
@@ -6762,7 +8122,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00003_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00002_.png",
@@ -6788,7 +8150,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-34_00001_.png",
@@ -6814,7 +8178,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-34_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-34_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00008_.png",
@@ -6840,7 +8206,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00008_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00007_.png",
@@ -6866,7 +8234,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00007_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00006_.png",
@@ -6892,7 +8262,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00006_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00005_.png",
@@ -6918,7 +8290,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00005_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00004_.png",
@@ -6944,7 +8318,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00004_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00003_.png",
@@ -6970,7 +8346,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00003_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00002_.png",
@@ -6996,7 +8374,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-23-33_00001_.png",
@@ -7022,7 +8402,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-23-33_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-23-33_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-20-06_00002_.png",
@@ -7048,7 +8430,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-20-06_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-20-06_00002_.webp",
+      "path": "ComfyUI_2026-11-07_HH-20-06_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-20-06_00001_.png",
@@ -7074,7 +8458,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-20-06_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-20-06_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-20-06_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-46-38_00001_.png",
@@ -7100,7 +8486,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-46-38_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-46-38_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-46-38_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-44-28_00001_.png",
@@ -7126,7 +8514,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-44-28_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-44-28_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-44-28_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-41-55_00001_.png",
@@ -7152,7 +8542,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-41-55_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-41-55_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-41-55_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-34-06_00001_.png",
@@ -7178,7 +8570,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-34-06_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-34-06_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-34-06_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-34-36_00001_.png",
@@ -7204,7 +8598,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-34-36_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-34-36_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-34-36_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-31-51_00001_.png",
@@ -7230,7 +8626,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-31-51_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-31-51_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-31-51_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-28-57_00001_.png",
@@ -7256,7 +8654,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-28-57_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-28-57_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-28-57_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-25-40_00001_.png",
@@ -7282,7 +8682,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-25-40_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-25-40_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-25-40_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-20-43_00001_.png",
@@ -7308,7 +8710,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-20-43_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-20-43_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-20-43_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-16-53_00001_.png",
@@ -7334,7 +8738,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-16-53_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-16-53_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-16-53_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-13-57_00001_.png",
@@ -7360,7 +8766,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-13-57_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-13-57_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-13-57_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-10-39_00001_.png",
@@ -7386,7 +8794,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-10-39_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-10-39_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-10-39_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-07-20_00001_.png",
@@ -7412,7 +8822,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-07-20_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-07-20_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-07-20_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-07_HH-02-04_00001_.png",
@@ -7438,7 +8850,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-07_HH-02-04_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-07_HH-02-04_00001_.webp",
+      "path": "ComfyUI_2026-11-07_HH-02-04_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-54-50_00010_.png",
@@ -7464,7 +8878,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00010_.webp",
+      "path": "ComfyUI_2026-11-06_HH-54-50_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-50-42_00001_.png",
@@ -7490,7 +8906,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-50-42_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-50-42_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-50-42_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-36-45_00001_.png",
@@ -7516,7 +8934,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-36-45_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-36-45_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-36-45_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-34-38_00001_.png",
@@ -7542,7 +8962,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-34-38_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-34-38_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-34-38_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-29-19_00001_.png",
@@ -7568,7 +8990,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-29-19_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-29-19_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-29-19_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-23-03_00001_.png",
@@ -7594,7 +9018,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-23-03_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-23-03_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-23-03_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-18-30_00001_.png",
@@ -7620,7 +9046,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-18-30_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-18-30_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-18-30_00001_.png",
+      "liked": false
     },
     {
       "name": "初音郁闷.png",
@@ -7646,7 +9074,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/初音郁闷.webp"
+      "thumb": "thumbs/初音郁闷.webp",
+      "path": "初音郁闷.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-53-40_00001_.png",
@@ -7672,7 +9102,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-53-40_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-53-40_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-53-40_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-35-51_00001_.png",
@@ -7698,7 +9130,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-35-51_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-35-51_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-35-51_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-28-34_00001_.png",
@@ -7724,7 +9158,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-28-34_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-28-34_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-28-34_00001_.png",
+      "liked": false
     },
     {
       "name": "初音生气.png",
@@ -7750,7 +9186,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/初音生气.webp"
+      "thumb": "thumbs/初音生气.webp",
+      "path": "初音生气.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-40-00_00004_.png",
@@ -7776,7 +9214,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00004_.webp",
+      "path": "ComfyUI_2026-11-06_HH-40-00_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-40-00_00003_.png",
@@ -7802,7 +9242,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00003_.webp",
+      "path": "ComfyUI_2026-11-06_HH-40-00_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-40-00_00002_.png",
@@ -7828,7 +9270,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-40-00_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-40-00_00001_.png",
@@ -7854,7 +9298,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-40-00_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-40-00_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-26-39_00005_.png",
@@ -7880,7 +9326,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00005_.webp",
+      "path": "ComfyUI_2026-11-06_HH-26-39_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-26-39_00004_.png",
@@ -7906,7 +9354,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00004_.webp",
+      "path": "ComfyUI_2026-11-06_HH-26-39_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-26-39_00003_.png",
@@ -7932,7 +9382,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00003_.webp",
+      "path": "ComfyUI_2026-11-06_HH-26-39_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-26-39_00002_.png",
@@ -7958,7 +9410,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-26-39_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-26-39_00001_.png",
@@ -7984,7 +9438,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-26-39_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-26-39_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-06-11_00002_.png",
@@ -8010,7 +9466,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-11_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-11_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-06-11_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-06-11_00001_.png",
@@ -8036,7 +9494,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-11_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-11_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-06-11_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-06-10_00003_.png",
@@ -8062,7 +9522,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-10_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-10_00003_.webp",
+      "path": "ComfyUI_2026-11-06_HH-06-10_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-06-10_00002_.png",
@@ -8088,7 +9550,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-10_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-10_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-06-10_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-06-10_00001_.png",
@@ -8114,7 +9578,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-10_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-06-10_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-06-10_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-57-32_00003_.png",
@@ -8140,7 +9606,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-57-32_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-57-32_00003_.webp",
+      "path": "ComfyUI_2026-11-06_HH-57-32_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-57-32_00002_.png",
@@ -8166,7 +9634,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-57-32_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-57-32_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-57-32_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-57-32_00001_.png",
@@ -8192,7 +9662,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-57-32_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-57-32_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-57-32_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-52-59_00001_.png",
@@ -8218,7 +9690,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-52-59_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-52-59_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-52-59_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-48-03_00001_.png",
@@ -8244,7 +9718,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-48-03_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-48-03_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-48-03_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-42-06_00002_.png",
@@ -8270,7 +9746,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-42-06_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-42-06_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-42-06_00002_.png",
+      "liked": false
     },
     {
       "name": "初音双手捧脸害羞.png",
@@ -8296,7 +9774,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/初音双手捧脸害羞.webp"
+      "thumb": "thumbs/初音双手捧脸害羞.webp",
+      "path": "初音双手捧脸害羞.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-07_00002_.png",
@@ -8322,7 +9802,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-07_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-07_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-07_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-07_00001_.png",
@@ -8348,7 +9830,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-07_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-07_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-07_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00025_.png",
@@ -8374,7 +9858,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00025_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00025_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00025_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00024_.png",
@@ -8400,7 +9886,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00024_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00024_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00024_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00023_.png",
@@ -8426,7 +9914,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00023_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00023_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00023_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00022_.png",
@@ -8452,7 +9942,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00022_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00022_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00022_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00021_.png",
@@ -8478,7 +9970,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00021_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00021_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00021_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00020_.png",
@@ -8504,7 +9998,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00020_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00020_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00020_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00019_.png",
@@ -8530,7 +10026,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00019_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00019_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00019_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00018_.png",
@@ -8556,7 +10054,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00018_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00018_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00018_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00017_.png",
@@ -8582,7 +10082,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00017_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00016_.png",
@@ -8608,7 +10110,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00016_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00015_.png",
@@ -8634,7 +10138,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00015_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00014_.png",
@@ -8660,7 +10166,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00014_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00013_.png",
@@ -8686,7 +10194,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00013_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00012_.png",
@@ -8712,7 +10222,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00012_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00011_.png",
@@ -8738,7 +10250,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00011_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00010_.png",
@@ -8764,7 +10278,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00010_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00009_.png",
@@ -8790,7 +10306,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00009_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00008_.png",
@@ -8816,7 +10334,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00008_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00007_.png",
@@ -8842,7 +10362,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00007_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00006_.png",
@@ -8868,7 +10390,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00006_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00005_.png",
@@ -8894,7 +10418,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00005_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00004_.png",
@@ -8920,7 +10446,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00004_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00003_.png",
@@ -8946,7 +10474,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00003_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00002_.png",
@@ -8972,7 +10502,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-06_00001_.png",
@@ -8998,7 +10530,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00001_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-06_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-06_00001_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00023_.png",
@@ -9024,7 +10558,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00023_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00023_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00023_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00022_.png",
@@ -9050,7 +10586,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00022_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00022_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00022_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00021_.png",
@@ -9076,7 +10614,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00021_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00021_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00021_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00020_.png",
@@ -9102,7 +10642,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00020_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00020_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00020_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00019_.png",
@@ -9128,7 +10670,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00019_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00019_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00019_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00018_.png",
@@ -9154,7 +10698,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00018_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00018_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00018_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00017_.png",
@@ -9180,7 +10726,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00017_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00017_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00017_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00016_.png",
@@ -9206,7 +10754,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00016_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00016_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00016_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00015_.png",
@@ -9232,7 +10782,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00015_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00015_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00015_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00014_.png",
@@ -9258,7 +10810,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00014_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00014_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00014_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00013_.png",
@@ -9284,7 +10838,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00013_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00013_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00013_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00012_.png",
@@ -9310,7 +10866,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00012_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00012_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00012_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00011_.png",
@@ -9336,7 +10894,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00011_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00011_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00011_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00010_.png",
@@ -9362,7 +10922,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00010_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00010_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00010_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00009_.png",
@@ -9388,7 +10950,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00009_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00009_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00008_.png",
@@ -9414,7 +10978,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00008_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00008_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00008_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00007_.png",
@@ -9440,7 +11006,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00007_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00007_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00007_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00006_.png",
@@ -9466,7 +11034,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00006_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00006_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00006_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00005_.png",
@@ -9492,7 +11062,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00005_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00005_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00005_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00004_.png",
@@ -9518,7 +11090,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00004_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00004_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00004_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00003_.png",
@@ -9544,7 +11118,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00003_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00003_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00003_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00002_.png",
@@ -9570,7 +11146,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00002_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00002_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00002_.png",
+      "liked": false
     },
     {
       "name": "ComfyUI_2026-11-06_HH-17-05_00001_.png",
@@ -9596,1099 +11174,9 @@ window.GALLERY_DATA = {
       "upscale": "bislerp 1.5x",
       "facedetailer": true,
       "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00001_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00009_.png",
-      "mtime": 1793950647,
-      "date": "2026-11-06 15:37:27",
-      "day": "2026-11-06",
-      "size": 4108895,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 892966595712004,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, techwear jacket with buckles and straps, black cargo skirt, fingerless tactical gloves, futuristic sneakers, glowing cyber accents, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00009_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00008_.png",
-      "mtime": 1793950534,
-      "date": "2026-11-06 15:35:34",
-      "day": "2026-11-06",
-      "size": 3893147,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 614402613592500,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, collegiate style, varsity jacket, oversized white collared shirt with necktie, tennis skirt, knee socks, loafers, outdoors, convenience store at night, vending machines, fluorescent lamp glow, asphalt road, urban lifestyle,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00008_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00007_.png",
-      "mtime": 1793950422,
-      "date": "2026-11-06 15:33:42",
-      "day": "2026-11-06",
-      "size": 3496144,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 187602005167204,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, cyberpunk idol costume, holographic vinyl crop top, pleated metallic skirt, asymmetrical leg wraps, translucent neon accessories, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00007_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00006_.png",
-      "mtime": 1793950310,
-      "date": "2026-11-06 15:31:50",
-      "day": "2026-11-06",
-      "size": 3817341,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 457384583336414,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, convenience store at night, vending machines, fluorescent lamp glow, asphalt road, urban lifestyle,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00006_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00005_.png",
-      "mtime": 1793950145,
-      "date": "2026-11-06 15:29:05",
-      "day": "2026-11-06",
-      "size": 3683033,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1086991315694675,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, convenience store at night, vending machines, fluorescent lamp glow, asphalt road, urban lifestyle,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00005_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00004_.png",
-      "mtime": 1793950034,
-      "date": "2026-11-06 15:27:14",
-      "day": "2026-11-06",
-      "size": 3488421,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 585306976646645,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, collegiate style, varsity jacket, oversized white collared shirt with necktie, tennis skirt, knee socks, loafers, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00004_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00003_.png",
-      "mtime": 1793949921,
-      "date": "2026-11-06 15:25:21",
-      "day": "2026-11-06",
-      "size": 3217230,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 812338828570465,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, rainy day aesthetic, transparent holographic raincoat, wet-look graphic tee, wet vinyl miniskirt, pastel rain boots, clear umbrella, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00003_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00002_.png",
-      "mtime": 1793949809,
-      "date": "2026-11-06 15:23:29",
-      "day": "2026-11-06",
-      "size": 3472506,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1109852998980988,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, skate park under highway bridge, colorful street graffiti wall, sunset, long shadows, urban atmosphere,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00002_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-50_00001_.png",
-      "mtime": 1793949696,
-      "date": "2026-11-06 15:21:36",
-      "day": "2026-11-06",
-      "size": 3508751,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 297809720401263,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, stylish trench coat, white knitted turtleneck sweater, pleated plaid miniskirt, sheer pantyhose, ankle boots, warm muffler scarf, outdoors, skate park under highway bridge, colorful street graffiti wall, sunset, long shadows, urban atmosphere,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-50_00001_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00031_.png",
-      "mtime": 1793949584,
-      "date": "2026-11-06 15:19:44",
-      "day": "2026-11-06",
-      "size": 4151766,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1025232692428168,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, cyberpunk idol costume, holographic vinyl crop top, pleated metallic skirt, asymmetrical leg wraps, translucent neon accessories, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00031_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00030_.png",
-      "mtime": 1793949469,
-      "date": "2026-11-06 15:17:49",
-      "day": "2026-11-06",
-      "size": 3120494,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 71345467617689,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, stylish trench coat, white knitted turtleneck sweater, pleated plaid miniskirt, sheer pantyhose, ankle boots, warm muffler scarf, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00030_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00029_.png",
-      "mtime": 1793949358,
-      "date": "2026-11-06 15:15:58",
-      "day": "2026-11-06",
-      "size": 4027484,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1009175764880581,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, cyberpunk idol costume, holographic vinyl crop top, pleated metallic skirt, asymmetrical leg wraps, translucent neon accessories, outdoors, modern glass skyscraper courtyard, reflecting pool, minimalist architecture, overcast soft lighting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00029_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00028_.png",
-      "mtime": 1793949244,
-      "date": "2026-11-06 15:14:04",
-      "day": "2026-11-06",
-      "size": 3068158,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 511896115261690,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, stylish trench coat, white knitted turtleneck sweater, pleated plaid miniskirt, sheer pantyhose, ankle boots, warm muffler scarf, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00028_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00027_.png",
-      "mtime": 1793949132,
-      "date": "2026-11-06 15:12:12",
-      "day": "2026-11-06",
-      "size": 3935183,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 279140095997451,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, rainy day aesthetic, transparent holographic raincoat, wet-look graphic tee, wet vinyl miniskirt, pastel rain boots, clear umbrella, outdoors, convenience store at night, vending machines, fluorescent lamp glow, asphalt road, urban lifestyle,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00027_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00026_.png",
-      "mtime": 1793949019,
-      "date": "2026-11-06 15:10:19",
-      "day": "2026-11-06",
-      "size": 3782998,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 868742057527504,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, techwear jacket with buckles and straps, black cargo skirt, fingerless tactical gloves, futuristic sneakers, glowing cyber accents, outdoors, skate park under highway bridge, colorful street graffiti wall, sunset, long shadows, urban atmosphere,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00026_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00025_.png",
-      "mtime": 1793948879,
-      "date": "2026-11-06 15:07:59",
-      "day": "2026-11-06",
-      "size": 3047974,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 648279679834440,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00025_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00024_.png",
-      "mtime": 1793948689,
-      "date": "2026-11-06 15:04:49",
-      "day": "2026-11-06",
-      "size": 4160451,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 43339278871130,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, summer sundress, floral pattern, off-shoulder sleeves, straw sunhat, delicate silver necklace, woven sandals, outdoors, open-air cafe terrace, parasol, wrought iron table, European street background, bright morning sunlight,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00024_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00023_.png",
-      "mtime": 1793948579,
-      "date": "2026-11-06 15:02:59",
-      "day": "2026-11-06",
-      "size": 3540168,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 78807544908373,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, denim overall shorts, yellow striped t-shirt underneath, rolled-up hems, canvas sneakers, canvas tote bag, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00023_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00022_.png",
-      "mtime": 1793948466,
-      "date": "2026-11-06 15:01:06",
-      "day": "2026-11-06",
-      "size": 4064774,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 359905668564224,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00022_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00021_.png",
-      "mtime": 1793948331,
-      "date": "2026-11-06 14:58:51",
-      "day": "2026-11-06",
-      "size": 3634761,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 843474577624710,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, rainy day aesthetic, transparent holographic raincoat, wet-look graphic tee, wet vinyl miniskirt, pastel rain boots, clear umbrella, outdoors, city street, crowded crosswalk, neon lights, holographic billboards, night, wet ground, puddle reflections, bokeh,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00021_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00020_.png",
-      "mtime": 1793948220,
-      "date": "2026-11-06 14:57:00",
-      "day": "2026-11-06",
-      "size": 4032400,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 509754924318730,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, techwear jacket with buckles and straps, black cargo skirt, fingerless tactical gloves, futuristic sneakers, glowing cyber accents, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00020_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00019_.png",
-      "mtime": 1793948079,
-      "date": "2026-11-06 14:54:39",
-      "day": "2026-11-06",
-      "size": 3807452,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 173158057777207,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, summer sundress, floral pattern, off-shoulder sleeves, straw sunhat, delicate silver necklace, woven sandals, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00019_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00018_.png",
-      "mtime": 1793947968,
-      "date": "2026-11-06 14:52:48",
-      "day": "2026-11-06",
-      "size": 3707125,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 588377074151071,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, modern glass skyscraper courtyard, reflecting pool, minimalist architecture, overcast soft lighting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00018_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00017_.png",
-      "mtime": 1793947826,
-      "date": "2026-11-06 14:50:26",
-      "day": "2026-11-06",
-      "size": 4104161,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 887021222705899,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, open-air cafe terrace, parasol, wrought iron table, European street background, bright morning sunlight,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00017_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00016_.png",
-      "mtime": 1793947660,
-      "date": "2026-11-06 14:47:40",
-      "day": "2026-11-06",
-      "size": 3613641,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1085512567171764,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, modern casual, oversized pastel hoodie, denim shorts, black thighhighs, platform sneakers, cross-body bag, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00016_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00015_.png",
-      "mtime": 1793947548,
-      "date": "2026-11-06 14:45:48",
-      "day": "2026-11-06",
-      "size": 3710082,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 64402173799003,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00015_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00014_.png",
-      "mtime": 1793947436,
-      "date": "2026-11-06 14:43:56",
-      "day": "2026-11-06",
-      "size": 3174120,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 860921044687604,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, rainy day aesthetic, transparent holographic raincoat, wet-look graphic tee, wet vinyl miniskirt, pastel rain boots, clear umbrella, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00014_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00013_.png",
-      "mtime": 1793947323,
-      "date": "2026-11-06 14:42:03",
-      "day": "2026-11-06",
-      "size": 3739286,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 780291468708877,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00013_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00012_.png",
-      "mtime": 1793947212,
-      "date": "2026-11-06 14:40:12",
-      "day": "2026-11-06",
-      "size": 3451297,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 144640864501558,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, summer sundress, floral pattern, off-shoulder sleeves, straw sunhat, delicate silver necklace, woven sandals, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00012_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00011_.png",
-      "mtime": 1793947098,
-      "date": "2026-11-06 14:38:18",
-      "day": "2026-11-06",
-      "size": 3813846,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 538641332942833,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, stylish trench coat, white knitted turtleneck sweater, pleated plaid miniskirt, sheer pantyhose, ankle boots, warm muffler scarf, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00011_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00010_.png",
-      "mtime": 1793946982,
-      "date": "2026-11-06 14:36:22",
-      "day": "2026-11-06",
-      "size": 3851930,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 52889307001738,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, techwear jacket with buckles and straps, black cargo skirt, fingerless tactical gloves, futuristic sneakers, glowing cyber accents, outdoors, open-air cafe terrace, parasol, wrought iron table, European street background, bright morning sunlight,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00010_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00009_.png",
-      "mtime": 1793946870,
-      "date": "2026-11-06 14:34:30",
-      "day": "2026-11-06",
-      "size": 4158114,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 800958849846835,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, denim overall shorts, yellow striped t-shirt underneath, rolled-up hems, canvas sneakers, canvas tote bag, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00009_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00008_.png",
-      "mtime": 1793946726,
-      "date": "2026-11-06 14:32:06",
-      "day": "2026-11-06",
-      "size": 4182571,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 442300541475281,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00008_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00007_.png",
-      "mtime": 1793946584,
-      "date": "2026-11-06 14:29:44",
-      "day": "2026-11-06",
-      "size": 3356198,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 620987138447534,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, pedestrian overpass bridge, city skyline in background, car light trails, twilight, purple and orange sky, wind,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00007_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00006_.png",
-      "mtime": 1793946442,
-      "date": "2026-11-06 14:27:22",
-      "day": "2026-11-06",
-      "size": 3776803,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 384288711406585,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, collegiate style, varsity jacket, oversized white collared shirt with necktie, tennis skirt, knee socks, loafers, outdoors, convenience store at night, vending machines, fluorescent lamp glow, asphalt road, urban lifestyle,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00006_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00005_.png",
-      "mtime": 1793946303,
-      "date": "2026-11-06 14:25:03",
-      "day": "2026-11-06",
-      "size": 3672741,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 87866622903853,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, modern glass skyscraper courtyard, reflecting pool, minimalist architecture, overcast soft lighting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00005_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00004_.png",
-      "mtime": 1793946190,
-      "date": "2026-11-06 14:23:10",
-      "day": "2026-11-06",
-      "size": 4386196,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 570243731108111,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, stylish trench coat, white knitted turtleneck sweater, pleated plaid miniskirt, sheer pantyhose, ankle boots, warm muffler scarf, outdoors, shopping mall arcade, glass roof, hanging decorations, bustling background, soft diffused light,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00004_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00003_.png",
-      "mtime": 1793946048,
-      "date": "2026-11-06 14:20:48",
-      "day": "2026-11-06",
-      "size": 3597343,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 811430293222161,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, sporty streetwear, cropped bomber jacket, sports bra, high-waisted baggy sweatpants, chunky retro sneakers, wireless headphones, outdoors, modern glass skyscraper courtyard, reflecting pool, minimalist architecture, overcast soft lighting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00003_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00002_.png",
-      "mtime": 1793945934,
-      "date": "2026-11-06 14:18:54",
-      "day": "2026-11-06",
-      "size": 3934275,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 10447975755248,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, modern glass skyscraper courtyard, reflecting pool, minimalist architecture, overcast soft lighting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00002_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-49_00001_.png",
-      "mtime": 1793945821,
-      "date": "2026-11-06 14:17:01",
-      "day": "2026-11-06",
-      "size": 3862125,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1027413765824361,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, urban chic, tailored blazer, graphic print t-shirt, skinny ripped jeans, leather combat boots, chokers, outdoors, convenience store at night, vending machines, fluorescent lamp glow, asphalt road, urban lifestyle,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-49_00001_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-48_00010_.png",
-      "mtime": 1793945705,
-      "date": "2026-11-06 14:15:05",
-      "day": "2026-11-06",
-      "size": 4092107,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 663667616995487,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, collegiate style, varsity jacket, oversized white collared shirt with necktie, tennis skirt, knee socks, loafers, outdoors, open-air cafe terrace, parasol, wrought iron table, European street background, bright morning sunlight,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-48_00010_.webp"
-    },
-    {
-      "name": "ComfyUI_2026-11-06_HH-54-48_00009_.png",
-      "mtime": 1793945592,
-      "date": "2026-11-06 14:13:12",
-      "day": "2026-11-06",
-      "size": 4008687,
-      "width": 2048,
-      "height": 1152,
-      "model": "NoobAI-XL-Vpred-v1.0 (1).safetensors",
-      "loras": [
-        "miku_style_v1-000005.safetensors (0.8)"
-      ],
-      "seed": 1124789428516411,
-      "steps": 25,
-      "cfg": 5.0,
-      "sampler": "euler_ancestral",
-      "scheduler": "normal",
-      "denoise": 1.0,
-      "positive": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, stylish trench coat, white knitted turtleneck sweater, pleated plaid miniskirt, sheer pantyhose, ankle boots, warm muffler scarf, outdoors, train station platform, railroad tracks, overhead wires, afternoon, clear sky, cumulus clouds, waiting,",
-      "positive_template": "style_artname, hatsune miku, solo, Rella, looking at viewer / looking back / eye contact, __miku/clothing__, __miku/outdoors__,",
-      "negative": "：worst quality, bad quality, low \nquality, normal quality, very displeasing, displeasing, old, early, lowres, bad anatomy, bad \nhands, mutated hands, extra fingers, missing fingers, fused fingers, too many fingers, \ninterlocked fingers, extra limbs, disconnected limbs, floating limbs, malformed limbs, poorly \ndrawn face, blurry, jpeg artifacts, signature, watermark, username, text, logo, chromatic \naberratio",
-      "upscale": "bislerp 1.5x",
-      "facedetailer": true,
-      "has_workflow": true,
-      "thumb": "thumbs/ComfyUI_2026-11-06_HH-54-48_00009_.webp"
+      "thumb": "thumbs/ComfyUI_2026-11-06_HH-17-05_00001_.webp",
+      "path": "ComfyUI_2026-11-06_HH-17-05_00001_.png",
+      "liked": false
     }
   ]
 };
