@@ -1,9 +1,9 @@
-# 默认忽略所有文件，由 sync_gallery.py 使用 git add -f 精确控制只上传近 7 天的图片、喜爱收藏图片与画廊网页文件
+# 默认忽略所有文件，由 sync_gallery.py 使用 git add -f 精确控制只上传近 7 天的图片、喜爱/保留收藏图片与画廊网页文件
 *
 !.gitignore
 !index.html
 !gallery_data.js
 !gallery_data.json
-!likes.json
+!gallery_state.json
 !sync_gallery.py
 !上传近7天图片到GitHub.bat
